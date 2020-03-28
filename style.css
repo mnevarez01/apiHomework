@@ -1,0 +1,24 @@
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Amiri", serif;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Amiri", serif;
+  font-style: italic;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
