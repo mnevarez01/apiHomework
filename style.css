@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: lightcyan;
 }
@@ -13,12 +19,26 @@ h2 {
   font-family: "Amiri", serif;
   font-style: italic;
 }
+.hide {
+  display: none;
+}
+#firstParagraph {
+  font-family: "Amiri", serif;
+  text-align: end;
+  padding: 10px;
+  margin-right: 10px;
+}
+#secondParagraph {
+  font-family: "Amiri", serif;
+  text-align: left;
+  padding: 10px;
+  margin-left: 10px;
+}
 
-.image {
-  width: 400px;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+#modal-container {
+  font-family: "Amiri", serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 30px;
+  padding: 10px;
 }
