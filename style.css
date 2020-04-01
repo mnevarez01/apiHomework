@@ -22,6 +22,16 @@ h2 {
 .hide {
   display: none;
 }
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
+
 #firstParagraph {
   font-family: "Amiri", serif;
   text-align: end;
